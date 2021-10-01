@@ -12,6 +12,9 @@ or Hyper-V back-ends. For most users it is recommend to use WSL2.
    [here](https://docs.docker.com/desktop/windows/install/). QEMU is
    automatically installed as part of the Docker Windows package.
 
+If using Windows, all further reference to `docker` commands in this
+document assume execution in a WSL2 terminal.
+
 ## Ubuntu
 
 1. Install Docker using the "Install using the repository"
@@ -75,7 +78,7 @@ or Hyper-V back-ends. For most users it is recommend to use WSL2.
      --reset -p yes
    ```
 
-\section{Testing Install}
+## Testing Install
 
 To test configuration run the following command:
 ```
