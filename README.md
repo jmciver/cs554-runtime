@@ -1,5 +1,7 @@
 # CS554 riscv64 Runtime #
 
+![action](https://github.com/jmciver/cs554-runtime/actions/workflows/main.yml/badge.svg)
+
 This repository provides a simple riscv64 runtime container,
 **jmciver/cs554-runtime**, which can be used to build and run
 assignments for UNM CS554.
