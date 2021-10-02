@@ -128,7 +128,7 @@ and a small assortment of other utilities.
    # -it provides interactive terminal support.
    # -v is a bind mount in the form of host:container path mapping
    docker run --rm -it -v$PWD:/mnt/build jmciver/cs554-runtime
-1. In the contain shell build and run `hello.c`
+1. In the container shell build and run `hello.c`
    ```
    cd /mnt/build && gcc -o hello hello.c && ./hello
    ```
