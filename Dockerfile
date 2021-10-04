@@ -14,3 +14,5 @@ RUN apt update && \
     vim-tiny \
     emacs-nox && \  
   apt clean
+
+WORKDIR /root
